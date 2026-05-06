@@ -12,7 +12,7 @@ Currently supports 15 species.
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/Oskar-Collegium/spider-scanner.git
+git clone https://github.com/Oskar-Collegium/MSI_Spider_Scanner
 
 # 2. Create and activate a virtual environment
 python -m venv venv
