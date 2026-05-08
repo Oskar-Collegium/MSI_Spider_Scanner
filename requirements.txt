@@ -1,7 +1,8 @@
-fastapi
-uvicorn[standard]
+--index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
+fastapi
+uvicorn[standard]
 Pillow
 python-dotenv
 jinja2
