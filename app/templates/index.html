@@ -300,7 +300,7 @@
       <span class="drop-icon">🕷️</span>
       <div class="drop-label">
         <strong>Drop an image here</strong>
-        or click to browse — JPEG, PNG, WebP · max 5 MB
+        or click to browse — JPEG, PNG, WebP · max 200 MB
       </div>
     </div>
 
@@ -369,7 +369,7 @@
         return;
       }
       if (file.size > 5 * 1024 * 1024) {
-        showError('Image exceeds the 5 MB size limit.');
+        showError('Image exceeds the 200 MB size limit.');
         return;
       }
 
